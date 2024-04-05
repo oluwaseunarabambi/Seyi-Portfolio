@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#projects img {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #projects img:hover {
+    transform: scale(1.1);
+  }
+
+.text1{
+    line-height: 1.9;
+}
+

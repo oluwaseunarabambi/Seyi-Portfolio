@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thompson Omodolapo Portfolio</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-gray-900 py-4">
+        <h1 class="text-2xl font-bold text-center text-white">Software Developer Portfolio</h1>
+    </header>
+    <nav class="bg-blue-800 py-4">
+        <ul class="flex justify-center text-white">
+            <li class="mr-4"><a class="text-white hover:text-gray-300" href="#about">About Me</a></li>
+            <li class="mr-4"><a class="text-white hover:text-gray-300" href="#skills">Skills</a></li>
+            <li class="mr-4"><a class="text-white hover:text-gray-300" href="#projects">Projects</a></li>
+            <li class="mr-4"><a class="text-white hover:text-gray-300" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="mx-auto py-8 px-4 max-w-3xl">
+        <section id="about" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4" style="font-family: Chivo";>About Me</h2>
+            <p class="text1" style="font-family: Chivo";>I'm Thompson Oluwaseyi, an aspiring software developer passionate about leveraging technology to solve real-world problems. With a strong foundation in HTML, CSS, JavaScript, and TypeScript, 
+                I'm dedicated to crafting intuitive and efficient solutions that enhance user experiences. <br>
+                Transitioning into the dynamic world of technology, I thrive on challenges and embrace opportunities to expand my knowledge. <br>
+                I am committed to continuous learning, staying abreast of emerging trends, and mastering new tools and frameworks and i also believe in I believe in the power of collaboration and actively seek opportunities to contribute 
+                to innovative projects and engage with like-minded professionals in the tech community...</p>
+            <img class="w-1/2 mx-auto rounded-full shadow-md" src="./images/211313.jpeg" alt="Profile photo">
+        </section>
+        <section id="skills" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <ul class="grid grid-cols-3 gap-4 text-center">
+                <li class="py-2 px-4 bg-gray-700 rounded-md shadow-md text-white">HTML</li>
+                <li class="py-2 px-4 bg-gray-700 rounded-md shadow-md text-white">CSS</li>
+                <li class="py-2 px-4 bg-gray-700 rounded-md shadow-md text-white">JavaScript</li>
+                <li class="py-2 px-4 bg-gray-700 rounded-md shadow-md text-white">Typescript</li>
+                
+            </ul>
+        </section>
+        <section id="projects" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="relative rounded-md shadow-md">
+                    <img class="w-full h-64 object-cover object-center" src="./images/WhatsApp Image 2024-03-03 at 2.39.36 AM.jpeg"
+                        alt="Screenshot of Ginja task manager">
+
+                    <div class="absolute bottom-0 left-0 right-0 mb-4 px-4">
+                        <h3 class="text-xl font-bold text-white">Ginja Task Manager</h3>
+                        <p class="text-base text-gray-400">This is a Simple Task Management System that was created 
+                        by Ginja Tech Team at SAIl INNOVATION LAB this app Helps you prioritze your task help your delete, Edit and Search for Tasks...
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Contact</h2>
+            <p class="text-lg mb-4">You can contact me via email at <a class="text-teal-500 hover:text-teal-700"
+                    href="mailto:info@example.com">thompsonoluwaseyi004@gmail.com</a> or by filling out the form below:</p>
+            <form class="bg-white p-6 rounded-md shadow-md" method="POST" action="#">
+                <label class="block mb-2 font-bold text-gray-700" for="name">Name</label>
+                <input class="block w-full p-2 rounded-md" type="text" id="name" name="name" required>
+                <label class="block mt-4 mb-2 font-bold text-gray-700" for="email">Email</label>
+                <input class="block w-full mt-2 p-2 rounded-md" type="email" id="email" name="email" required>
+                <label class="block mt-4 mb-2 font-bold text-gray-700" for="message">Message</label>
+                <textarea class="block w-full mt-2 p-2 rounded-md" id="message" name="message" rows="6"
+                    required></textarea>
+                <input class="block mt-4 p-2 rounded-md" type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    <footer class="bg-teal-500 py-4 text-center text-gray">
+        <p>Copyright 2024. All rights reserved.</p>
+    </footer>
